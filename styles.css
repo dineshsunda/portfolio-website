@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Play&family=Public+Sans&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+.sidebar{
+    background-color: #c5caca;
+    width: 200px;
+    height:100vh;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav{
+    font-size:20px;
+}
+.sidebar nav li{
+    list-style:none;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    padding:10px 10px;
+    display: block;
+    margin: 30px 0;
+}
+.sidebar nav li a:hover{
+    background-color: #a6b8b8bb;
+    border-radius: 5px;
+}
+.main{
+    /* background-color: rgb(111, 0, 255); */
+    width: 80vw;
+}
+.container{
+    display: flex;
+
+
+}
+.infocontainer{
+    background-color: white;
+    height: 58vh;
+    width:65vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.dineshpic img{
+    width: 250px;
+    height:60vh;
+}
+
+.dineshinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size:55px;
+
+}
+.name{
+    font-size:45px;
+    font-weight: bold;
+}
+.about{
+    font-size:35px;
+    
+}
+.moreabout{
+    font-size:15px;
+    font-family: 'Fira Sans', sans-serif ;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 16px;
+    padding: 8px;
+    color: white;
+    background-color: #61577f;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px;
+    margin: 10px 0 0 25px;
+}
+.btn:hover{
+    background-color: azure;
+    color: #61577f;
+}
+.contactform{
+    padding: 0 34px;
+    margin: auto 0;
+    padding: 50px 0 0 50px;
+    font-family: 'Play', sans-serif;
+}
+.contactform h2{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 1px 10px;
+    /*border: 1px solid;*/
+    border-color: #c5caca;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.contactform form div label{
+    padding: 15px 0;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.contactform form div input{
+    /* width: 20vw; */
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check-input{
+    width: 24px;
+    margin: 5px 0;
+}
+.blogcontainer{
+    margin:10px;
+    font-family: 'Fira Sans', sans-serif ;
+    
+}
+.blogcontainer h1{
+    margin:20px;
+    font-family: 'Fira Sans', sans-serif ;
+}
+.blogitem{
+    margin:10px;
+    font-family: 'Fira Sans', sans-serif ;
+}
+.blogitem h2{
+    margin:15px;
+}
+.blogitem p{
+    margin:10px 0 0 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+.dineshinfo h2{
+    margin: 10px;
+    padding: 0 0 0 20px;
+    font-family: 'Fira Sans', sans-serif ;
+}
+
+.dineshinfo p{
+    padding:10px 0 0 40px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.skill{
+    display: flex;
+    align-items: center;
+    
+}
+.myskill{
+    background-color: red;
+    width: 100px;
+    height: 3px;
+    border: solid 2px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+
+}
+.t1{
+    background-color: red;
+    width: 250px;
+}
+.t2{
+    background-color: rgb(51, 209, 236);
+    width: 180px;
+}
+.t3{
+    background-color: rgb(110, 110, 110);
+    width: 70px;
+}
+.t4{
+    background-color: rgb(32, 173, 75);
+    width: 210px;
+}
+.t5{
+    background-color: rgb(214, 87, 13);
+    width: 110px;
+}
+.project{
+    padding: 10 0 0 0px;
+    margin: 10px 0 0 10px;
+}
